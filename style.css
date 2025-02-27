@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --primary: #27445D;
+    --secondary:#497D74;
+    --tertiary:#71BBB2;
+    --body-color:#EFE9D5;
+
+/* FONT SIZE */
+    --text-sm:1.3rem;
+    --text-md:1.6rem;
+    --text-lg:2rem;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    /*background-color: var(--body-color);*/
+    background-color: #ffffff;
+    font-size: var(--text-sm);
+}
+
+main{
+    margin: 2rem
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    margin: 1rem 0;
+    color: var(--secondary) ;
+    text-shadow: #71BBB2 1px 1px 1px;
+}
+
+span{
+    color: var(--tertiary);
+}
+
+a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+footer{
+    text-align: center;
+}
+
+#profile-pic{
+    max-width: 200px;
+    max-height: 300px;
+    width: 100%;
+    border-radius: 30px;
+    display: inline-block;
+    padding: .5rem .75rem;
+}
+
+.wrapper{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto 2rem;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+}
+
+.companies{
+    padding: 1rem 1rem;
+    width: 45rem;
+    font-size: var(--text-md);
+}
+
+.banner{
+    /*text-align: center;*/
+    background-color:var(--primary) ;
+    color: var(--tertiary);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5px;
+}
+
+.intro-paragraph{
+    line-height: 2;
+}
+.experience{
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.education{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 2rem;
+}
+
+.job-experience, .intro{
+    margin-bottom: 2.5rem;
+}
+
+a:link,a:visited{
+    color: var(--tertiary);
+}
+
+a:hover, a:active, span:hover{
+    color: #D98324 ;
+}
+
+
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+.computing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.logos {
+    width: 75px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* FOOTER */
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-span{
+    gap: 1rem;
+}
+
+.contact{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.icon{
+    width: 2rem;
+}
